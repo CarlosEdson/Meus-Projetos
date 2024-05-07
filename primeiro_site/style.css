@@ -65,6 +65,7 @@ menu > nav > a{
     color: black;
 }
 main{
+    position: relative;
     height: 500px;
     width: 100%;
     background-image: url(imagens/paisagem.jpeg);
@@ -72,4 +73,12 @@ main{
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
+}
+div{
+    position: absolute;
+    margin-left: 40px;
+    border: 1px solid black;
+    height: auto;
+    width: 275px;
+    border-radius: 10px;
 }
