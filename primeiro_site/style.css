@@ -75,10 +75,20 @@ main{
     background-size: cover;
 }
 div{
+    margin-top: 30px;
     position: absolute;
     margin-left: 40px;
     border: 1px solid black;
     height: auto;
-    width: 275px;
+    width: 261px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: white;
+}
+div p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+div > img{
     border-radius: 10px;
 }
