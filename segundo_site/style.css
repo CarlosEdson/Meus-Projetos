@@ -26,9 +26,10 @@ header nav > a{
     margin: 25px;
 }
 header > div{
+    position: relative;
+}
+header div input{
     position: absolute;
-    left: 80%;
-    top: 20%;
 }
 header nav > a:hover{
     box-sizing: border-box;
