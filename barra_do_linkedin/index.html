@@ -5,15 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>linkedin</title>
 </head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        padding: 5px 0px 5px 30px;
+        position: relative;
+        width: auto;
+        height: 50px;
+        background-color: rgba(128, 128, 128, 0.582);
+    }
+    header .Pesquisa > input{
+        position: absolute;
+        left: 90px;
+        top: 15px;
+        padding: 5px;
+        width: 300px;
+    }
+    header #seg{
+        position:absolute;
+        left: 40%;
+        top: 10px;
+    }
+    #seg img{
+        height: 40px;
+        top: 20px;
+        margin-right: 45px;
+    }
+    #seg a{
+        text-decoration: none;
+    }
+</style>
 <body>
     <header>
         <div>
             <img src="imagens/linkedin-logo-fill.png" alt="">
+        </div>
+        <div class="Pesquisa">
             <input type="search" name="" id="" placeholder="Pesquisar">
         </div>
-        <div>
-            <img src="imagens/house-fill.png" alt="">
-            <img src="imagens/users-fill.png" alt="">
+        <div id="seg">
+            <a href="#">
+                <img src="imagens/house-fill.png" alt="">
+            </a>
+            <a href="#">
+                <img src="imagens/users-fill.png" alt="">
+            </a>
+            <a href="#">
+                <img src="imagens/bag-simple-fill.png" alt="">
+            </a>
+            <a href="#">
+                <img src="imagens/chat-circle-dots-fill.png" alt="">
+            </a>
+            <a href="#">
+                <img src="imagens/bell-simple-fill.png" alt="">
+            </a>
         </div>
     </header>
 </body>
