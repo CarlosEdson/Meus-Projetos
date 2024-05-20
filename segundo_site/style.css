@@ -3,6 +3,10 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    max-width: 1000px;
+    min-width: 350px;
+}
 header{
     position: relative;
     background-color: #F7F7F7;
