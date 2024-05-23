@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.514);
+}
+header{
+    height: 60px;
+    width: auto;
+    background-color: white;
+}
+.container{
+    padding-top: 5px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.pesq{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.pesquisa{
+    width: 200px;
+    padding: 3px;
+    background-color: rgba(128, 128, 128, 0.308);
+}
