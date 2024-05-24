@@ -33,11 +33,9 @@ header{
     flex-direction: row;
     padding-top: 10px;
 }
-.house, .people, .suitecase, .chat, .bell{
+.house, .people, .suitecase, .chat, .bell, .login{
     text-align: center;
-    margin: 0px 5px;
-    padding: 0px 15px;
-    border: 1px solid black;
+    padding: 0px 10px;
 }
 a{
     text-decoration: none;
