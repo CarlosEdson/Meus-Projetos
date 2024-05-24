@@ -10,6 +10,8 @@ header{
     height: 60px;
     width: auto;
     background-color: white;
+    display: flex;
+    flex-direction: row;
 }
 .container{
     padding-top: 5px;
@@ -18,7 +20,7 @@ header{
     flex-direction: row;
 }
 .pesq{
-    margin-top: 10px;
+    padding-top: 12px;
     margin-left: 10px;
 }
 .pesquisa{
@@ -33,7 +35,9 @@ header{
 }
 .house, .people, .suitecase, .chat, .bell{
     text-align: center;
-    margin: 0px 30px;
+    margin: 0px 5px;
+    padding: 0px 15px;
+    border: 1px solid black;
 }
 a{
     text-decoration: none;
@@ -44,4 +48,5 @@ a{
 a:hover{
     text-decoration: underline;
     color: black;
+    
 }
