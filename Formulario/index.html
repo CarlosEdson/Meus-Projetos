@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-Formulario</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding:0px;
+    }
+    body{
+        background-color: grey;
+    }
+    form{
+        width: 400px;
+        display: block;
+        margin: 25%;
+    }
+    fieldset{
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+    }
+    div{
+        display: block;
+        text-align: center;
+        margin: 40px;
+    }
+
+</style>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Login</legend>
+            <div class="campo-usuario">
+                <label for="inome">Usuario:</label> <br>
+                <input type="email" name="nome" id="inome" placeholder="ex.:usuario12@gmail.com">
+            </div>
+            <div class="campo-senha">
+                <label for="isenha">Senha</label> <br>
+                <input type="password" name="senha" id="isenha">
+            </div>
+            <div class="login cadastro">
+                <input type="button" value="Login">
+                <input type="button" value="Cadatre-se">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
