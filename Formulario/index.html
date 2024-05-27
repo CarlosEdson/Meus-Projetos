@@ -11,42 +11,37 @@
         padding:0px;
     }
     body{
-        background-color: grey;
+        background-image: url(imagem/fundo2.jpeg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
     }
     form{
-        width: 400px;
-        display: block;
-        margin: 25%;
-    }
-    fieldset{
-        border-radius: 10px;
-        background-color: white;
-        color: black;
+        margin: auto;
     }
     div{
         display: block;
-        text-align: center;
         margin: 40px;
     }
-
+    .login-cadastro{
+        padding: 10px;
+        border-radius: 10px;
+    }
 </style>
 <body>
     <form action="" method="get">
-        <fieldset>
-            <legend>Login</legend>
-            <div class="campo-usuario">
-                <label for="inome">Usuario:</label> <br>
-                <input type="email" name="nome" id="inome" placeholder="ex.:usuario12@gmail.com">
-            </div>
-            <div class="campo-senha">
-                <label for="isenha">Senha</label> <br>
-                <input type="password" name="senha" id="isenha">
-            </div>
-            <div class="login cadastro">
-                <input type="button" value="Login">
-                <input type="button" value="Cadatre-se">
-            </div>
-        </fieldset>
+        <div class="campo-usuario">
+            <label for="inome">Usuario:</label> <br>
+            <input type="email" name="nome" id="inome" placeholder="ex.:usuario12@gmail.com">
+        </div>
+        <div class="campo-senha">
+            <label for="isenha">Senha</label> <br>
+            <input type="password" name="senha" id="isenha">
+        </div>
+        <div class="login-cadastro">
+            <input type="button" value="Login">
+            <input type="button" value="Cadatre-se">
+        </div>
     </form>
 </body>
 </html>
