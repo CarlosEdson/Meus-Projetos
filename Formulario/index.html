@@ -8,40 +8,66 @@
 <style>
     *{
         margin: 0px;
-        padding:0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     body{
-        background-image: url(imagem/fundo2.jpeg);
-        background-repeat: no-repeat;
-        background-position: top center;
-        background-size: cover;
+        width: 100vw;
+        border: 1px solid black;
+        display: flex;
+        align-content: space-around;
+        height: 600px;
     }
-    form{
-        margin: auto;
+    article{
+        background-color: aquamarine;
     }
-    div{
-        display: block;
-        margin: 40px;
+    .logo{
+        margin: 60px 0px 40px 50px;
     }
-    .login-cadastro{
-        padding: 10px;
-        border-radius: 10px;
+    .text-principal{
+        text-align: left;
+        margin: 0px 0px 40px 50px;
+    }
+    .text-principal > h1{
+        font-weight: bolder;
+        font-size: 2em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    article > input{
+        margin: 0px 0px 0px 50px;
+        padding: 0px 5px;
+        border-radius: 25px;
+    }
+    aside{
+        background-color: aqua;
     }
 </style>
 <body>
-    <form action="" method="get">
-        <div class="campo-usuario">
-            <label for="inome">Usuario:</label> <br>
-            <input type="email" name="nome" id="inome" placeholder="ex.:usuario12@gmail.com">
+    <article>
+        <div class="logo">
+            <h3>Flutter</h3>
         </div>
-        <div class="campo-senha">
-            <label for="isenha">Senha</label> <br>
-            <input type="password" name="senha" id="isenha">
+        <div class="text-principal">
+            <h1>Criando um Login page no Flutter</h1>
         </div>
-        <div class="login-cadastro">
-            <input type="button" value="Login">
-            <input type="button" value="Cadatre-se">
-        </div>
-    </form>
+        <input type="button" value="Ui Desing">
+    </article>
+
+    <aside>
+        <form action="" method="post">
+            <div class="informacao">
+                <h2>Login</h2>
+                <p>Informe seus dados nesse campo de cadastro</p>
+            </div>
+            <div class="login">
+                <input type="email" name="mail" id="imail" placeholder="Digite seu Email">
+                <input type="password" name="senha" id="isenha" placeholder="Digite sua Senha">
+            </div>
+            <div class="cadastro">
+                <input type="submit" value="Acessar">
+                <input type="submit" value="Cirar Conta">
+            </div>
+        </form>
+    </aside>
 </body>
 </html>
