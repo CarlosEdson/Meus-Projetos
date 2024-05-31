@@ -14,7 +14,6 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    position: fixed;
 }
 #container{
     padding-top: 5px;
@@ -74,6 +73,8 @@ a{
 #usuario div{
     text-align: left;
     border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
 .perfil, .conta, .gerenciar, .sair{
     background-color: white;
