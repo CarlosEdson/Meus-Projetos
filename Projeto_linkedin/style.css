@@ -6,6 +6,8 @@
 }
 body{
     background-color: rgba(128, 128, 128, 0.514);
+    display: flex;
+    flex-wrap: wrap;
 }
 header{
     height: 60px;
@@ -31,6 +33,7 @@ header{
     background-color: rgba(128, 128, 128, 0.308);
 }
 #fluxo{
+    border: 1px solid red;
     display: flex;
     flex-direction: row;
     padding-top: 10px;
@@ -80,4 +83,19 @@ a{
     background-color: white;
     padding: 4px;
     width: auto;
+}
+.perfil h3{
+    padding: 2px;
+}
+.perfil p{
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conta a{
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gerenciar a{
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
 }
