@@ -2,17 +2,19 @@
 *{
     margin: 0px;
     padding: 0px;
+    width: auto;
 }
 body{
     background-color: rgba(128, 128, 128, 0.514);
 }
 header{
     height: 60px;
-    width: auto;
+    width: 1400px;
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    position: fixed;
 }
 #container{
     padding-top: 5px;
@@ -59,20 +61,22 @@ a{
 .bell:hover{
     border-bottom: 3px solid black;
 }
-.login:hover{
-    border-bottom: 3px solid black;
+.login:hover div{
+    display: block;
+}
+.login div{
+    display: none;
 }
 #usuario{
     border: 1px solid black;
-    box-sizing: border-box;
-    height: 240px;
-    width: 300px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.61);
 }
 #usuario div{
     text-align: left;
+    border-bottom: 1px solid black;
 }
 .perfil, .conta, .gerenciar, .sair{
-    border-bottom: 1px solid black;
     background-color: white;
     padding: 4px;
+    width: auto;
 }
