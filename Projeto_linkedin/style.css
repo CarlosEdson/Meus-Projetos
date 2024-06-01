@@ -8,6 +8,7 @@ body{
     background-color: rgba(128, 128, 128, 0.514);
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 header{
     height: 60px;
