@@ -68,10 +68,14 @@ a{
 }
 .login div{
     display: none;
+    position: relative;
 }
 #usuario{
+    position: absolute;
     border: 1px solid black;
     box-shadow: 1px 1px rgba(0, 0, 0, 0.61);
+    right: 10%;
+    top: 9%;
 }
 #usuario div{
     text-align: left;
@@ -98,4 +102,7 @@ a{
 .gerenciar a{
     padding: 2px;
     font-family: Arial, Helvetica, sans-serif;
+}
+#usuario a:hover{
+    background-color: rgba(128, 128, 128, 0.774);
 }
