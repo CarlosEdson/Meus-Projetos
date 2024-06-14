@@ -18,9 +18,13 @@
         align-content: space-around;
         align-items: center;
         justify-content: center;
+
+        background-image: linear-gradient(to bottom, #44526E, #446C6E);
     }
     article{
-        background-color: aquamarine;
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: 10px 0px 0px 10px;
         height: 400px;
         width: 600px;
     }
@@ -46,7 +50,9 @@
         background-color: rgba(255, 0, 0, 0.568);
     }
     aside{
-        background-color: aqua;
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: 0px 10px 10px 0px;
         height: 400px;
     }
     form{
@@ -71,10 +77,12 @@
         margin-bottom: 5px;
         width: 280px;
         height: 30px;
-        background-color: rgba(141, 140, 140, 0.644);
         border: none;
         border-radius: 10px;
-        color: white;
+    }
+    .login > input:hover{
+        background-color: white;
+        cursor: pointer;
     }
     .cadastro > input{
         width: 280px;
