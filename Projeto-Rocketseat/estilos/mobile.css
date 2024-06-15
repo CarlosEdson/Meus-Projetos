@@ -4,3 +4,16 @@
     margin: 0px;
     padding: 0px;
 }
+main{
+    background-color: aqua; /*trocar por backgroun-imag*/
+    height: 90vh;
+}
+#conteudo{
+    background-color: blueviolet;
+    height: 200px;
+    width: 90%;
+}
+footer{
+    background-color: brown;
+    height: 10vh;
+}
