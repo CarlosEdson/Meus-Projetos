@@ -5,15 +5,48 @@
     padding: 0px;
 }
 main{
-    background-color: aqua; /*trocar por backgroun-imag*/
-    height: 90vh;
+    background-image: url(../imagem/pexels-valeriya-1028427.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 92vh;
+    position: relative;
 }
 #conteudo{
-    background-color: blueviolet;
-    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#conteudo > .titulo > h1{
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+#conteudo > .titulo > h1 > strong{
+    color: red;
+}
+#conteudo > .texto > p{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+#conteudo > .button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#conteudo > .button > input{
+    height: 60px;
+    width: 200px;
+    font-size: 1.2em;
+    font-weight: bolder;
 }
 footer{
     background-color: brown;
-    height: 10vh;
+    height: 8vh;
 }
