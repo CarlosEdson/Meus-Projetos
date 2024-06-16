@@ -8,6 +8,7 @@ main{
     background-image: url(../imagem/pexels-valeriya-1028427.jpg);
     background-position: center;
     background-size: cover;
+    width: 100vw;
     height: 92vh;
     position: relative;
 }
@@ -17,7 +18,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     height: 600px;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -53,4 +54,9 @@ footer > #rodape{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.house, .search, .basket, .perfil{
+    margin: 10px;
+    height: auto;
+    background-color: brown;
 }
