@@ -8,8 +8,8 @@ main{
     background-image: url(../imagem/pexels-valeriya-1028427.jpg);
     background-position: center;
     background-size: cover;
-    width: 100vw;
-    height: 92vh;
+    width: auto;
+    height: 100vh;
     position: relative;
 }
 #conteudo{
@@ -46,17 +46,11 @@ main{
     width: 200px;
     font-size: 1.2em;
     font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 1px 1px black;
+    background-color: rgba(255, 0, 0, 0.897);
 }
-footer{
-    height: 8vh;
-}
-footer > #rodape{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.house, .search, .basket, .perfil{
-    margin: 10px;
-    height: auto;
-    background-color: brown;
+#conteudo > .button > input:hover{
+    background-color: white;
+    cursor: pointer;
 }
