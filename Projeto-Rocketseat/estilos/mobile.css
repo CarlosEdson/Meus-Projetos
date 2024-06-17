@@ -8,8 +8,8 @@ main{
     background-image: url(../imagem/pexels-valeriya-1028427.jpg);
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: 100vh;
     position: relative;
     margin: 0px 10px;
 }

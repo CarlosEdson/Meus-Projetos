@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px){
-
+    #conteudo > .titulo{
+        margin-top: 80px;
+    }
+    #conteudo > .texto{
+        width: 700px;
+        height: 100px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #conteudo > .button{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 10%;
+    }
 }
