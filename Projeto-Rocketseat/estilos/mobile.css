@@ -6,6 +6,7 @@
 }
 main{
     background-image: url(../imagem/pexels-valeriya-1028427.jpg);
+    display: flex;
     background-position: center;
     background-size: cover;
     width: auto;
@@ -33,7 +34,11 @@ main{
     color: red;
 }
 #conteudo > .texto > p{
-    font-size: 2em;
+    font-size: 1.5em;
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     text-align: center;
     color: white;
 }
