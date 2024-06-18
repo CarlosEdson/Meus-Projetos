@@ -9,10 +9,9 @@ main{
     display: flex;
     background-position: center;
     background-size: cover;
-    width: auto;
+    width: 100vw;
     height: 100vh;
     position: relative;
-    padding: 0px 10px;
 }
 #conteudo{
     position: absolute;
