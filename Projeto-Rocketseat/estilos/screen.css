@@ -2,17 +2,20 @@
 
 @media screen and (min-width: 768px){
     #conteudo > .titulo{
-        margin-top: 80px;
-        font-size: 1.5em;
+        margin-top: 40px;
+        font-size: 2em;
     }
     #conteudo > .texto{
         width: 550px;
         height: 90px;
-        margin-top: 30px;
+        margin-top: 35px;
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+    }
+    #conteudo > .texto > p{
+        width: 500px;
     }
     #conteudo > .button{
         position: absolute;
