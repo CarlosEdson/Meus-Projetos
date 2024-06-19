@@ -6,12 +6,10 @@
 }
 main{
     background-image: url(../imagem/pexels-valeriya-1028427.jpg);
-    display: flex;
     background-position: center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    position: relative;
 }
 #conteudo{
     position: absolute;
@@ -19,7 +17,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     height: 80%;
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,6 +31,7 @@ main{
     color: red;
 }
 #conteudo > .texto > p{
+    background-color: black;
     font-size: 1.5em;
     width: 250px;
     position: absolute;
@@ -40,6 +39,7 @@ main{
     transform: translate(-50%);
     text-align: center;
     color: white;
+    top: 50%;
 }
 #conteudo > .button{
     display: flex;
