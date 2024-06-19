@@ -31,7 +31,6 @@ main{
     color: red;
 }
 #conteudo > .texto > p{
-    background-color: black;
     font-size: 1.5em;
     width: 250px;
     position: absolute;
