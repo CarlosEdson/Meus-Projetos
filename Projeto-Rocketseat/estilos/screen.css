@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px){
-    main{
-        margin: 0px 15px;
-    }
     #conteudo > .titulo{
         margin-top: 80px;
         font-size: 1.5em;
